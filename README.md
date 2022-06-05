@@ -20,6 +20,7 @@
 ##### 在本地运行dev
 - 目录为"musttonust"
 ```
+    npm i
     npm run dev
 ```
 
@@ -27,6 +28,7 @@
 - 目录为"musttonust"
 - 输出目录为"dist"
 ```
+    npm i
     npm run generate
 ```
 
