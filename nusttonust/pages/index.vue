@@ -1,5 +1,8 @@
 <template>
     <div>
+    <div class="diss">
+    <img src=""/>
+    </div>
         <h2>主界面</h2>
         <ul>
             <li><nuxt-link :to="{name:'index'}">主界面</nuxt-link></li>
@@ -14,3 +17,11 @@ export default {
   loading: true
 }
 </script>
+
+<style>
+.diss {
+    width: 300px;
+    height: 300px;
+    background-image: url('~static/icon.jpg');
+}
+</style>

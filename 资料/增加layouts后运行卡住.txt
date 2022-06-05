@@ -1,0 +1,1 @@
+因为app.html模板和layouts里面的模板只能被二选一，所以删掉app.html即可

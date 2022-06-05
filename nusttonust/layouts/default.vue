@@ -1,4 +1,6 @@
 <template>
-<p>giao</p>
-    <Nuxt />
+    <dev>
+        <p>giao</p>
+        <Nuxt />
+    </dev>
 </template>
