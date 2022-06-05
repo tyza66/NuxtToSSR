@@ -15,6 +15,7 @@ export default{
     //校验传进来的动态路由参数
     validate({params}){
         return /^\d+$/.test(params.id);
-    }
+    },
+    transition:'test'
 }
 </script>
