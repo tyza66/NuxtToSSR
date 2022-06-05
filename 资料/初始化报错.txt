@@ -1,0 +1,16 @@
+报错：
+vue init nuxt/starter
+报错，
+Usage: init 【options】 <template> <app-name>
+
+generate a project from a remote template (legacy API, requires @vue/cli-init)
+
+Options:
+  -c, --clone  Use git clone when fetching remote template
+  --offline    Use cached template
+  -h, --help   output usage information
+
+  Missing required argument <app-name>.
+
+解决：
+npm init nuxt-app [项目名]
