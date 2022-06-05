@@ -9,6 +9,7 @@
 - "musttonust"里是代码主体（为node项目，名字是随便打的）
 - "资料"里面是开发过程中遇到的问题以及解决方案
 - dev运行端口为3000，jsonMake端口为5000， live-server运行时端口为8080
+- 使用到的技术：webpack，vue，nuxt
   
 ##### 在本地运行jsonMake
 - 目录为"jsonMake"
