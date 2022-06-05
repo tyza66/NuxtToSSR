@@ -17,7 +17,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
+  css: ['~/static/css/global.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -34,8 +34,16 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
-  loading: {color: '#3B8070'},
+  loading: { color: '#3B8070' },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    rules: [{
+      test: /\.(png|jge?g|gif|svg)$/,
+      loader: "url-loader",
+      query:{
+        limit:10000,
+        name: 'img/[name].[hash].[ext]'
+      }
+    }]
   }
 }

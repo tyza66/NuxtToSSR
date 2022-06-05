@@ -1,0 +1,1 @@
+新版webpack已经废弃了urlloader，使用rules代替loaders
